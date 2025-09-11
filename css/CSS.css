@@ -1,14 +1,16 @@
 .nombre {
     float: right; 
-    width: 70%;
+    width: 75%;
 }
 
 section {
-    height: 300px ;
+    height: 205px ;
     padding: 20px;
     background-color: rgb(149, 149, 228);
 }
 
 .imagen{
     float: left;
+     height: 200px;
+      width: 160px;
 }
