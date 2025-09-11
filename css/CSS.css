@@ -1,0 +1,14 @@
+.nombre {
+    float: right; 
+    width: 70%;
+}
+
+section {
+    height: 300px ;
+    padding: 20px;
+    background-color: rgb(149, 149, 228);
+}
+
+.imagen{
+    float: left;
+}
