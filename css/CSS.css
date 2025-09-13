@@ -1,16 +1,43 @@
-.nombre {
-    float: right; 
-    width: 75%;
+/* Global CSS */
+* {
+    color: rgb(237, 244, 255);
+    font-family:sans-serif ;
+    margin: 0px;
+    padding: 0px;
 }
 
-section {
-    height: 205px ;
-    padding: 20px;
+/* Class CSS */
+.nombre {
+    float: right; 
+    text-align: center;
+    width: 75%;
     background-color: rgb(149, 149, 228);
 }
 
-.imagen{
-    float: left;
-     height: 200px;
-      width: 160px;
+.secContactos {
+background-color: rgb(56, 56, 113);
 }
+
+.contactos {
+    text-align: center;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    padding: 20px;
+}
+
+.icons{
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+/* ID CSS */
+#MiFoto{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
