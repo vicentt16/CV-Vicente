@@ -1,43 +1,59 @@
 /* Global CSS */
 * {
-    color: rgb(237, 244, 255);
+    color: rgb(223, 229, 255);
     font-family:sans-serif ;
     margin: 0px;
     padding: 0px;
+    
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* Class CSS */
 .nombre {
+    height: 250px;
     float: right; 
     text-align: center;
-    width: 75%;
-    background-color: rgb(149, 149, 228);
+    width: 100%;
+    background-color: rgb(59, 59, 179);
 }
 
-.secContactos {
-background-color: rgb(56, 56, 113);
-}
-
-.contactos {
-    text-align: center;
-    padding: 10px;
-}
 
 .flex{
+    align-items: center;
     display: flex;
-    padding: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
-.icons{
-    height: 30px;
-    padding-left: 5%;
-    padding-right: 2%;
+.IzWith{
+    width: 250px;
+    background-color: rgb(59, 59, 179)
 }
+
+.icon{
+    height: 15px;
+}
+
+.SideInfo{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.bar{
+    padding-left: 20px;
+    width: 120px;
+    height: 10px;
+}
+
 
 /* ID CSS */
 #MiFoto{
     float: left;
-    width: 200px;
+    width: 260px;
     margin-right: 10px;
 }
 
