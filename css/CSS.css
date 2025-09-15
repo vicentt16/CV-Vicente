@@ -8,17 +8,26 @@
 }
 
 ul{
+    padding-right: 50px;
+    text-align: center;
     list-style-type: none;
+    display: inline-flex;
 }
 
-/* Class CSS */
-.nombre {
-    height: 250px;
-    float: right; 
-    text-align: center;
-    width: 100%;
-    background-color: rgb(59, 59, 179);
+li{
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+
+/* Class CSS */
+.Title {
+    height: 336.66px;
+    text-align: center;
+    background-color: rgb(59, 59, 179);
+    border-radius: 15px;
+}
+
 
 
 .flex{
@@ -28,19 +37,47 @@ ul{
     padding-top: 10px;
 }
 
-.IzWith{
-    width: 250px;
-    background-color: rgb(59, 59, 179)
+.LefWith{
+    min-width: 700px;
+    align-self: start;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 100%;
 }
 
-.icon{
-    height: 15px;
+.IzWith{
+    min-width: 260px;
+    width: 260px;
+    background-color: rgb(59, 59, 179);
+    border-radius: 15px;
 }
 
 .SideInfo{
     padding-top: 10px;
-    padding-left: 10px;
     padding-bottom: 20px;
+}
+
+.SideTitles{
+    padding-left: 10px;
+}
+
+
+
+.LetterColor2{
+    text-align: center;
+    color: rgb(35, 39, 90);
+}
+
+
+/* IMAGE RELATED */
+.icon{
+    padding-right: 5px;
+    height: 15px;
+}
+
+.ProgramIcon{
+    padding-top: 30px;
+    width: 70px;
 }
 
 .bar{
@@ -55,5 +92,6 @@ ul{
     float: left;
     width: 260px;
     margin-right: 10px;
+    border-radius: 15px;
 }
 
