@@ -41,6 +41,11 @@ a{
     padding-top: 10px;
 }
 
+.Overflow{
+    /* max-width: 760px; */
+    /* overflow-x: scroll; */
+}
+
 .LefWith{
     min-width: 700px;
     align-self: end;
@@ -91,7 +96,7 @@ a{
     background: linear-gradient(rgb(59, 59, 179),rgb(28, 28, 111));
     width: 180px;
     height: 300px;
-    margin-right: 5%;
+    margin-right: 5px;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -115,9 +120,14 @@ a{
 
 .bar{
     justify-self: end;
-    margin-left: 20px ;
+    margin-right: 10% ;
+
     width: 120px;
     height: 10px;
+}
+
+.justify{
+    justify-content: space-evenly;
 }
 
 
