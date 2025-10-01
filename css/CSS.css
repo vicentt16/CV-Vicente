@@ -7,8 +7,7 @@
     
 }
 
-ul{
-    padding-right: 50px;
+ul {
     text-align: center;
     list-style-type: none;
     display: inline-flex;
@@ -20,19 +19,22 @@ li{
 }
 
 a{
-    color: rgb(78, 78, 255);
+    color: rgb(12, 12, 104);
 }
 
 
 /* Class CSS */
 .Title {
+    box-shadow: 0 0 10px rgb(19, 17, 109);
     background: linear-gradient(rgb(59, 59, 179),rgb(28, 28, 111));
     height: 336.66px;
     text-align: center;
     border-radius: 0px;
 }
 
-
+.Background2{
+    background: linear-gradient(rgb(47, 47, 130),rgb(28, 28, 111));
+}
 
 .flex{
     align-items: center;
@@ -41,9 +43,28 @@ a{
     padding-top: 10px;
 }
 
-.Overflow{
-    /* max-width: 760px; */
-    /* overflow-x: scroll; */
+.Overflow {
+    max-width: 560px;
+    overflow: auto;
+}
+
+.AplyHover :hover{
+    transform: scale(1.05);
+    /* transform: translateY(100px);  */
+}
+
+.AplyHover{
+    transition: all 5s ease-out;
+}
+
+.AplyHover img{
+    pointer-events: none;
+}
+.AplyHover h3{
+    pointer-events: none;
+}
+.AplyHover p{
+    pointer-events: none;
 }
 
 .LefWith{
@@ -60,8 +81,12 @@ a{
     width: 260px;
 }
 
+
+
 .SideInfo{
-    padding-top: 60px;
+    box-shadow: 0 0 10px rgb(19, 17, 109);
+    height: 660px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -75,39 +100,49 @@ a{
 }
 
 .InfoTitles{
+    
     text-align: center;
     color: rgb(35, 39, 90);
 }
 
 .LowInfoTitles{
+    box-shadow: 0 0 10px rgb(19, 17, 109);
     min-width: 975px;
     width: 100%;
-
     margin-top: 10px;
     margin-left: 15px;
-
-    padding-top: 10px;
+    padding: 5px;
     text-align: center;
 
     background: linear-gradient(rgb(59, 59, 179),rgb(28, 28, 111));
 }
 
 .LowInfoTiles{
+    box-shadow: 0 0 10px rgb(19, 17, 109);
+    margin: 8px;
+    border-radius: 15px;
     background: linear-gradient(rgb(59, 59, 179),rgb(28, 28, 111));
     width: 180px;
     height: 300px;
-    margin-right: 5px;
+    /* margin-right: 8px; */
     padding-left: 0%;
     padding-right: 0%;
+    
+}
+.LowInfoTiles img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
+
+
+/* IMAGE RELATED */
 .LowImages{
     width: 180px;
     height: 180px;
 }
 
 
-/* IMAGE RELATED */
 .icon{
     padding-right: 5px;
     height: 15px;
@@ -123,7 +158,7 @@ a{
     margin-right: 10% ;
 
     width: 120px;
-    height: 10px;
+    height: 15px;
 }
 
 .justify{
@@ -133,6 +168,9 @@ a{
 
 /* ID CSS */
 #MiFoto{
+    box-shadow: 0 0 10px rgb(19, 17, 109);
+    border-bottom-left-radius: 15px ;
+    border-top-left-radius: 15px;
     float: left;
     width: 260px;
     margin-right: 10px;
